@@ -1,0 +1,66 @@
+.app-header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.loginButton {
+    float: right;
+    display: flex;
+    align-self: flex-start;
+}
+
+.app-logo {
+    animation: app-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+}
+
+.bookshow-button {
+    float: right;
+    margin-right: 8px ; 
+    display: flex;
+}
+
+@keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
+}
+
+.tabs {
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
+.FormControl {
+    justify-self: center;
+}
+
+.showNone {
+    display: none;
+}
+
+.showBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+header{
+    background-color: #222;
+    height : 36px;
+    padding-left: 16px;
+    padding-top:8px ;
+    padding-right: 32px;
+    padding-bottom:8px ;
+    
+  }
+  .rotate{
+    animation: app-logo-spin infinite 8s linear;
+      height: 35px;
+      background: #ff7f7f;
+      float: left;
+  }
+  
